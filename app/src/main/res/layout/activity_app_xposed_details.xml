@@ -132,7 +132,7 @@
                     style="@style/textSmall"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Fungsi pengaturan lanjutan bergantung pada aplikasi tanpa antarmuka yang disebut "Pengaturan Lanjutan Pemandangan" Anda perlu menemukannya di manajemen mulai mandiri dan mengaturnya secara terpisah untuk memungkinkan mulai mandiri. Jika tidak, Scene tidak dapat berkomunikasi dengannya!"
+                    android:text="Fungsi pengaturan lanjutan bergantung pada aplikasi tanpa antarmuka yang disebut "Pengaturan Lanjutan Pemandangan" Anda perlu menemukannya di manajemen mulai mandiri dan mengaturnya secara terpisah untuk memungkinkan mulai mandiri. Jika tidak, Scene tidak dapat berkomunikasi dengannya!" />
                     android:textColor="?android:colorAccent" />
             </LinearLayout>
         </LinearLayout>
