@@ -1,14 +1,14 @@
 # Scene
 
-> 使用本工具前，请确保你已经ROOT手机，并已安装busybox。你最好是个玩机专家，至少也该会刷机和修复系统。因为应用中部分高级功能可能会影响系统正常启动！！！
+> Sebelum menggunakan alat ini, pastikan Anda telah melakukan ROOT pada ponsel Anda dan menginstal busybox. Anda sebaiknya menjadi ahli permainan, dan setidaknya Anda harus bisa mem-flash dan memperbaiki sistem. Karena beberapa fungsi lanjutan dalam aplikasi dapat mempengaruhi startup normal sistem! ! !
 
 ---
 
-暂无详细说明
+Belum ada penjelasan detailnya
 
 ---
 
-**应用界面展示**
+**Tampilan antarmuka aplikasi**
 
 
 <img src="https://github.com/helloklf/vtools/raw/master/docs/Screenshot/1.png" width="350" /> <img src="https://github.com/helloklf/vtools/raw/master/docs/Screenshot/2.png" width="350" />
