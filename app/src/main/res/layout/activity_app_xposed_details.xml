@@ -69,7 +69,7 @@
                     android:paddingBottom="10dp"
                     android:gravity="center"
                     android:background="@drawable/in_card_item"
-                    android:text="高级设定组件未安装，请先点击此处安装！" />
+                    android:text="Komponen pengaturan lanjutan belum diinstal, silakan klik di sini untuk menginstalnya terlebih dahulu!" />
 
                 <TextView
                     android:layout_marginLeft="0dp"
@@ -83,7 +83,7 @@
                     android:paddingBottom="10dp"
                     android:gravity="center"
                     android:background="@drawable/in_card_item"
-                    android:text="使用高级设定，请在Xposed管理器中勾选本应用并重启手机！"
+                    android:text="Untuk menggunakan pengaturan lanjutan, silakan periksa aplikasi ini di manajer Xposed dan mulai ulang ponsel Anda! "
                     android:visibility="gone" />
 
                 <LinearLayout
@@ -103,7 +103,7 @@
                         android:layout_height="wrap_content"
                         android:paddingEnd="10dp"
                         android:layout_gravity="center_vertical"
-                        android:text="默认" />
+                        android:text="Bawaan" />
                 </LinearLayout>
 
                 <Switch
@@ -111,21 +111,21 @@
                     style="@style/scene_config_item"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="从最近任务隐藏" />
+                    android:text="Sembunyikan dari tugas terkini" />
 
                 <Switch
                     android:id="@+id/app_details_scrollopt"
                     style="@style/scene_config_item"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="弹性缓慢滚动" />
+                    android:text="Pengguliran Lambat Elastis" />
 
                 <Switch
                     android:id="@+id/app_details_web_debug"
                     style="@style/scene_config_item"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="强制开启WebView调试" />
+                    android:text="Paksa proses debug WebView diaktifkan" />
 
                 <TextView
                     android:id="@+id/addin_auto_run_help"
