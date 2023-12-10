@@ -1,145 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/drawer_layout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:backgroundTintMode="screen"
-    android:clipToPadding="true"
+<FrameLayout
+    android:id="@id/drawer_layout"
     android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:keepScreenOn="false"
-    tools:openDrawer="start">
-
+    android:backgroundTintMode="screen"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <com.omarea.common.ui.OverScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingTop="?android:actionBarSize">
-
+        android:paddingTop="?android:actionBarSize"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
             <LinearLayout
-                style="@style/ListCardItem"
                 android:gravity="center_vertical"
-                android:orientation="horizontal">
-
+                android:orientation="horizontal"
+                style="@style/ListCardItem">
                 <ImageView
-                    android:id="@+id/app_details_icon"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:id="@id/app_details_icon"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
                     android:src="@drawable/linux" />
-
                 <LinearLayout
-                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
+                    android:layout_weight="1.0"
+                    android:layout_marginStart="8.0dip">
                     <TextView
-                        android:id="@+id/app_details_name"
-                        style="@style/textTitle"
-                        android:layout_width="match_parent"
+                        android:id="@id/app_details_name"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="@string/app_name" />
-
+                        android:layout_marginBottom="5.0dip"
+                        android:text="@string/app_name"
+                        style="@style/textTitle" />
                     <TextView
-                        android:id="@+id/app_details_packagename"
-                        style="@style/textSmall"
-                        android:layout_width="match_parent"
+                        android:id="@id/app_details_packagename"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/app_name" />
+                        android:text="@string/app_name"
+                        style="@style/textSmall" />
                 </LinearLayout>
             </LinearLayout>
-
-            <LinearLayout style="@style/ListCardItemLast">
+            <LinearLayout
+                style="@style/ListCardItemLast">
                 <TextView
-                    android:layout_marginLeft="0dp"
-                    android:layout_marginRight="0dp"
-                    android:layout_marginTop="0dp"
-                    android:id="@+id/app_details_vaddins_notinstall"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:minHeight="50dp"
-                    android:paddingTop="10dp"
-                    android:paddingBottom="10dp"
                     android:gravity="center"
+                    android:id="@id/app_details_vaddins_notinstall"
                     android:background="@drawable/in_card_item"
-                    android:text="Komponen pengaturan lanjutan belum terpasang, silakan klik di sini untuk memasangnya terlebih dahulu！" />
-
+                    android:paddingTop="10.0dip"
+                    android:paddingBottom="10.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0.0dip"
+                    android:layout_marginTop="0.0dip"
+                    android:layout_marginRight="0.0dip"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:minHeight="50.0dip"
+                    android:text="Komponen pengaturan lanjutan belum diinstal, silakan klik di sini untuk menginstalnya terlebih dahulu!" />
                 <TextView
-                    android:layout_marginLeft="0dp"
-                    android:layout_marginRight="0dp"
-                    android:layout_marginTop="0dp"
-                    android:id="@+id/app_details_vaddins_notactive"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="10dp"
-                    android:paddingBottom="10dp"
                     android:gravity="center"
+                    android:id="@id/app_details_vaddins_notactive"
                     android:background="@drawable/in_card_item"
-                    android:text="Untuk menggunakan pengaturan lanjutan, silakan periksa aplikasi ini di manajer Xposed dan mulai ulang ponsel Anda!"
-                    android:visibility="gone" />
-
+                    android:paddingTop="10.0dip"
+                    android:paddingBottom="10.0dip"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0.0dip"
+                    android:layout_marginTop="0.0dip"
+                    android:layout_marginRight="0.0dip"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="Untuk menggunakan pengaturan lanjutan, silakan periksa aplikasi ini di manajer Xposed dan mulai ulang ponsel Anda!" />
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
-
                     <TextView
-                        style="@style/scene_config_item"
-                        android:layout_width="0dp"
+                        android:layout_width="0.0dip"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="DPI" />
-
+                        android:text="DPI"
+                        android:layout_weight="1.0"
+                        style="@style/scene_config_item" />
                     <TextView
-                        android:id="@+id/app_details_dpi"
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/app_details_dpi"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingEnd="10dp"
-                        android:layout_gravity="center_vertical"
-                        android:text="Bawaan" />
+                        android:text="Bawaan"
+                        android:paddingEnd="10.0dip" />
                 </LinearLayout>
-
                 <Switch
-                    android:id="@+id/app_details_excludetask"
-                    style="@style/scene_config_item"
-                    android:layout_width="match_parent"
+                    android:id="@id/app_details_excludetask"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sembunyikan dari tugas terkini" />
-
+                    android:text="Sembunyikan dari tugas terkini"
+                    style="@style/scene_config_item" />
                 <Switch
-                    android:id="@+id/app_details_scrollopt"
-                    style="@style/scene_config_item"
-                    android:layout_width="match_parent"
+                    android:id="@id/app_details_scrollopt"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pengguliran lambat elastis" />
-
+                    android:text="Pengguliran Lambat Elastis"
+                    style="@style/scene_config_item" />
                 <Switch
-                    android:id="@+id/app_details_web_debug"
-                    style="@style/scene_config_item"
-                    android:layout_width="match_parent"
+                    android:id="@id/app_details_web_debug"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Paksa proses debug WebView diaktifkan" />
-
+                    android:text="Paksa proses debug WebView diaktifkan"
+                    style="@style/scene_config_item" />
                 <TextView
-                    android:id="@+id/addin_auto_run_help"
-                    style="@style/textSmall"
-                    android:layout_width="match_parent"
+                    android:textColor="?android:colorAccent"
+                    android:id="@id/addin_auto_run_help"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Fungsi pengaturan lanjutan bergantung pada aplikasi tanpa antarmuka yang disebut "Pengaturan Lanjutan Pemandangan" Anda perlu menemukannya di manajemen mulai mandiri dan mengaturnya secara terpisah untuk memungkinkan mulai mandiri. Jika tidak, Scene tidak dapat berkomunikasi dengannya!" />
-                    android:textColor="?android:colorAccent" />
+                    android:text="Fungsi pengaturan lanjutan bergantung pada aplikasi tanpa antarmuka yang disebut Pengaturan Lanjutan Scenw Anda perlu menemukannya di manajemen mulai mandiri dan mengaturnya secara terpisah untuk memungkinkan mulai mandiri. Jika tidak, Scene tidak dapat berkomunikasi dengannya！"
+                    style="@style/textSmall" />
             </LinearLayout>
         </LinearLayout>
     </com.omarea.common.ui.OverScrollView>
-
     <include
-        layout="@layout/layout_app_bar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/layout_app_bar" />
 </FrameLayout>
