@@ -191,7 +191,7 @@
     <string name="shortcut_p3">Mode Performa</string>
     <string name="shortcut_p3_long">Konfigurasi Kinerja - Performa</string>
     <string name="shortcut_p4">Mode Ekstrim</string>
-    <string name="shortcut_p4_long">Konfigurasi Kinerja-Kecepatan Ekstrim</string>
+    <string name="shortcut_p4_long">Konfigurasi Kinerja - Ekstrim</string>
     <string name="device_unsupport">Fitur ini belum didukung pada perangkat Anda！</string>
 
     <string name="addin_fullscreen_on">Layar Penuh</string>
@@ -286,7 +286,7 @@
     <string name="powersave_short">Hemat Daya</string>
     <string name="balance_short">Seimbang</string>
     <string name="performance_short">Performa</string>
-    <string name="fast_short">Kecepatan Ekstrim</string>
+    <string name="fast_short">Ekstrim</string>
     <string name="app_selected_none">Tidak ada satu aplikasi pun yang dipilih!</string>
     <string name="help">Bantuan</string>
     <string name="warn">Peringatan</string>
@@ -325,7 +325,7 @@
         <item>Hemat daya</item>
         <item>Seimbang</item>
         <item>Pertunjukan</item>
-        <item>Kecepatan Ekstrim</item>
+        <item>Ekstrim</item>
         <item>Bawaan Global</item>
         <item>Tertahan</item>
     </string-array>
