@@ -26,7 +26,7 @@
                 style="@style/textTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="峰值统计" />
+                android:text="Statistik Puncak" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -51,7 +51,7 @@
                         android:layout_height="70dp"
                         android:layout_alignTop="@id/battery_max_temperature"
                         android:gravity="center_vertical"
-                        android:text="温度"
+                        android:text="Suhu"
                         android:textAlignment="center"
                         android:textColor="#77888888"
                         android:textSize="15dp" />
@@ -84,7 +84,7 @@
                         android:layout_height="70dp"
                         android:layout_alignTop="@id/battery_max_output"
                         android:gravity="center_vertical"
-                        android:text="耗电"
+                        android:text="Konsumsi Daya"
                         android:textAlignment="center"
                         android:textColor="#77888888"
                         android:textSize="15dp" />
@@ -116,7 +116,7 @@
                         android:layout_height="70dp"
                         android:layout_alignTop="@id/battery_max_intput"
                         android:gravity="center_vertical"
-                        android:text="充电"
+                        android:text="Daya Masuk"
                         android:textAlignment="center"
                         android:textColor="#77888888"
                         android:textSize="15dp" />
@@ -153,13 +153,13 @@
                 <com.omarea.ui.HelpIcon
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:text="这里统计的只是每个应用在前台显示时的整机耗电，而电流和温度显示的是所有检测记录的平均值。这意味着此数值数值会受其它后台应用耗电影响！\n\n此数据由Scene的场景模式后台运行过程中自行统计，如果你已经保持场景模式后台运行一段时间，却一直得不到数据，请检查概览界面的电流显示是否正确，如果错误请手动校准电流单位。" />
+                    app:text="Statistik di sini hanyalah konsumsi daya seluruh mesin ketika setiap aplikasi ditampilkan di latar depan, sedangkan arus dan suhu yang ditampilkan adalah nilai rata-rata dari semua catatan deteksi. Artinya nilai ini akan dipengaruhi oleh konsumsi daya aplikasi latar belakang lainnya! \n\nData ini dihitung secara otomatis oleh Pemandangan selama mode pemandangan berjalan di latar belakang. Jika Anda tetap menjalankan mode pemandangan di latar belakang untuk jangka waktu tertentu namun masih tidak bisa mendapatkan datanya, harap periksa apakah tampilan saat ini di layar antarmuka ikhtisar benar. Jika salah, harap kalibrasi unit saat ini secara manual." />
                 <TextView
                     style="@style/textTitle"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:text="应用使用记录" />
+                    android:text="Riwayat penggunaan aplikasi" />
             </LinearLayout>
 
 
