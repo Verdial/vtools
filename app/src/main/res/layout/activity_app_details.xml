@@ -62,7 +62,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:switchPadding="6dp"
-                android:text="打开应用自动执行操作" />
+                android:text="Buka aplikasi untuk melakukan tindakan secara otomatis" />
 
             <LinearLayout
                 android:id="@+id/scene_mode_config"
@@ -79,7 +79,7 @@
                         style="@style/scene_config_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="性能调节" />
+                        android:text="Penyetelan Kinerja" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -89,7 +89,7 @@
                             style="@style/scene_config_item"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="调节性能至" />
+                            android:text="Sesuaikan kinerja ke" />
 
                         <TextView
                             android:id="@+id/app_details_dynamic"
@@ -110,7 +110,7 @@
                             style="@style/scene_config_item"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="内存(cgroup) 前台时" />
+                            android:text="Memori (cgroup) di latar depan" />
 
                         <TextView
                             android:id="@+id/app_details_cgroup_mem"
@@ -131,7 +131,7 @@
                             style="@style/scene_config_item"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="内存(cgroup) 离开后" />
+                            android:text="Setelah memori (cgroup) pergi" />
 
                         <TextView
                             android:id="@+id/app_details_cgroup_mem2"
@@ -152,7 +152,7 @@
                             style="@style/scene_config_item"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="自动加速(memory)" />
+                            android:text="Akselerasi otomatis (memori)" />
 
                         <TextView
                             android:id="@+id/app_details_boost_mem"
@@ -175,7 +175,7 @@
                         style="@style/scene_config_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="基本设置" />
+                        android:text="pengaturan dasar" />
                     <LinearLayout
                         android:gravity="center_vertical"
                         android:minHeight="40dp"
@@ -186,7 +186,7 @@
                             style="@style/scene_config_item"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="关闭自动亮度" />
+                            android:text="Matikan kecerahan otomatis" />
                         <Switch
                             android:id="@+id/app_details_aloowlight"
                             style="@style/scene_config_item"
@@ -205,7 +205,7 @@
                             style="@style/scene_config_item"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="打开GPS（离开后还原）" />
+                            android:text="Nyalakan GPS (pulihkan setelah restart)" />
                         <Switch
                             android:id="@+id/app_details_gps"
                             style="@style/scene_config_item"
@@ -224,7 +224,7 @@
                             style="@style/scene_config_item"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="旋转屏幕" />
+                            android:text="Putar layar" />
 
                         <TextView
                             android:id="@+id/scene_orientation"
@@ -245,7 +245,7 @@
                         style="@style/scene_config_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="沉浸体验" />
+                        android:text="Pengalaman yang mendalam" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -257,7 +257,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="隐藏导航栏" />
+                            android:text="Sembunyikan bilah navigasi" />
 
                         <Switch
                             android:id="@+id/app_details_hidestatus"
@@ -266,7 +266,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="50dp"
                             android:layout_weight="1"
-                            android:text="隐藏状态栏" />
+                            android:text="Sembunyikan bilah status" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -279,14 +279,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="屏蔽通知" />
+                            android:text="Blokir notifikasi" />
                     </LinearLayout>
 
                     <TextView
                         style="@style/textSmall"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="屏蔽通知时Scene会自动清除新通知，可能错失消息。按键屏蔽状态下，将使用长按替代短按操作" />
+                        android:text="Saat Anda memblokir notifikasi, Scene akan secara otomatis menghapus notifikasi baru dan Anda mungkin melewatkan pesan. Jika tombol terlindung, tekan lama akan digunakan sebagai pengganti tekan sebentar." />
                 </LinearLayout>
 
                 <LinearLayout
@@ -295,20 +295,20 @@
                         style="@style/scene_config_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Scene功能" />
+                        android:text="Fungsi Scene" />
 
                     <Switch
                         android:id="@+id/app_monitor"
                         style="@style/scene_config_item"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="性能监视器" />
+                        android:text="Pemantau Kinerja" />
 
                     <TextView
                         style="@style/textSmall"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="显示Scene的迷你性能监视器(OLED设备小心烧屏哦~)" />
+                        android:text="Monitor kinerja mini Display Scene (hati-hati dengan layar burn-in untuk perangkat OLED~)" />
 
                 </LinearLayout>
 
@@ -318,20 +318,20 @@
                         style="@style/scene_config_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="应用偏见" />
+                        android:text="Pembekuan yang diterapkan" />
 
                     <Switch
                         android:id="@+id/app_details_freeze"
                         style="@style/scene_config_item"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="自动冻结" />
+                        android:text="Membekukan otomatis" />
 
                     <TextView
                         style="@style/textSmall"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="锁屏之后，将此应用冻结(禁用)，适用于后台非常耗电但又偶尔需要打开的应用" />
+                        android:text="Setelah mengunci layar, bekukan aplikasi ini (nonaktifkan), yang cocok untuk aplikasi yang menghabiskan banyak daya di latar belakang tetapi perlu dibuka sesekali." />
 
                 </LinearLayout>
             </LinearLayout>
