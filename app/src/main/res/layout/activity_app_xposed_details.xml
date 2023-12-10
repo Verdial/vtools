@@ -69,7 +69,7 @@
                     android:paddingBottom="10dp"
                     android:gravity="center"
                     android:background="@drawable/in_card_item"
-                    android:text="高级设定组件未安装，请先点击此处安装！" />
+                    android:text="Komponen pengaturan lanjutan belum terpasang, silakan klik di sini untuk memasangnya terlebih dahulu！" />
 
                 <TextView
                     android:layout_marginLeft="0dp"
@@ -83,7 +83,7 @@
                     android:paddingBottom="10dp"
                     android:gravity="center"
                     android:background="@drawable/in_card_item"
-                    android:text="使用高级设定，请在Xposed管理器中勾选本应用并重启手机！"
+                    android:text="Untuk menggunakan pengaturan lanjutan, silakan periksa aplikasi ini di manajer Xposed dan mulai ulang ponsel Anda!"
                     android:visibility="gone" />
 
                 <LinearLayout
@@ -103,7 +103,7 @@
                         android:layout_height="wrap_content"
                         android:paddingEnd="10dp"
                         android:layout_gravity="center_vertical"
-                        android:text="默认" />
+                        android:text="Bawaan" />
                 </LinearLayout>
 
                 <Switch
@@ -111,28 +111,28 @@
                     style="@style/scene_config_item"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="从最近任务隐藏" />
+                    android:text="Sembunyikan dari tugas terkini" />
 
                 <Switch
                     android:id="@+id/app_details_scrollopt"
                     style="@style/scene_config_item"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="弹性缓慢滚动" />
+                    android:text="Pengguliran lambat elastis" />
 
                 <Switch
                     android:id="@+id/app_details_web_debug"
                     style="@style/scene_config_item"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="强制开启WebView调试" />
+                    android:text="Paksa proses debug WebView diaktifkan" />
 
                 <TextView
                     android:id="@+id/addin_auto_run_help"
                     style="@style/textSmall"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="高级设定功能依赖一个名为“Scene-高级设定”的无界面应用，你需要在自启动管理中找到它，并单独设置允许自启动。否则Scene无法与之通讯！"
+                    android:text="Fungsi pengaturan lanjutan bergantung pada aplikasi tanpa antarmuka yang disebut "Pengaturan Lanjutan Pemandangan" Anda perlu menemukannya di manajemen mulai mandiri dan mengaturnya secara terpisah untuk memungkinkan mulai mandiri. Jika tidak, Scene tidak dapat berkomunikasi dengannya!"
                     android:textColor="?android:colorAccent" />
             </LinearLayout>
         </LinearLayout>
