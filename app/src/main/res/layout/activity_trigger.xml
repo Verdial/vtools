@@ -29,7 +29,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/activity_vertical_margin"
-                    android:text="启用触发器 " />
+                    android:text="Aktifkan Pemicu " />
 
                 <LinearLayout
                     style="@style/ListCardItem"
@@ -43,7 +43,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="触发条件" />
+                        android:text="Kondisi Pemicu" />
 
                     <GridLayout
                         android:layout_width="220dp"
@@ -55,42 +55,42 @@
                             android:layout_height="wrap_content"
                             android:layout_column="0"
                             android:layout_columnWeight="1"
-                            android:text="开机完成" />
+                            android:text="Booting Selesai" />
 
                         <CheckBox
                             android:id="@+id/trigger_battery_low"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
                             android:layout_columnWeight="1"
-                            android:text="电量不足" />
+                            android:text="Daya Tidak Cukup" />
 
                         <RadioButton
                             android:id="@+id/trigger_screen_on"
                             android:layout_height="wrap_content"
                             android:layout_column="0"
                             android:layout_columnWeight="1"
-                            android:text="屏幕点亮" />
+                            android:text="Layar Menyala" />
 
                         <RadioButton
                             android:id="@+id/trigger_screen_off"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
                             android:layout_columnWeight="1"
-                            android:text="屏幕关闭" />
+                            android:text="Layar Mati" />
 
                         <RadioButton
                             android:id="@+id/trigger_power_connected"
                             android:layout_height="wrap_content"
                             android:layout_column="0"
                             android:layout_columnWeight="1"
-                            android:text="插充电器" />
+                            android:text="Colokkan Pengisi Daya" />
 
                         <RadioButton
                             android:id="@+id/trigger_power_disconnected"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
                             android:layout_columnWeight="1"
-                            android:text="拔充电器" />
+                            android:text="Cabut Pengisi Daya" />
                     </GridLayout>
 
                 </LinearLayout>
@@ -107,7 +107,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="时段限制" />
+                        android:text="Batas Waktu" />
 
                     <LinearLayout
                         android:layout_width="220dp"
@@ -129,7 +129,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="至"
+                            android:text="Ke"
                             android:textAlignment="center"
                             android:textSize="16sp"
                             android:textStyle="bold"
@@ -160,7 +160,7 @@
                         android:layout_width="60dp"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/activity_horizontal_margin"
-                        android:text="内置命令" />
+                        android:text="Perintah Bawaan" />
 
                     <LinearLayout
                         android:id="@+id/task_standby_mode"
@@ -175,20 +175,20 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:paddingStart="7dp"
-                            android:text="待机模式"
+                            android:text="Modus Siaga"
                             android:textColor="?android:textColorPrimary" />
 
                         <RadioButton
                             android:id="@+id/task_standby_on"
                             android:layout_width="110dp"
                             android:layout_height="wrap_content"
-                            android:text="开启" />
+                            android:text="Nyala" />
 
                         <RadioButton
                             android:id="@+id/task_standby_off"
                             android:layout_width="110dp"
                             android:layout_height="wrap_content"
-                            android:text="关闭" />
+                            android:text="Mati" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -203,7 +203,7 @@
                             android:textColor="@android:color/holo_red_dark"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="待机模式是Scene设计的一项功能，进入待机模式时会禁用所有冻结名单中的应用从而减少后台活动。应用冻结状态下图标将显示为灰色，点击时提示“此应用由ROOT管理”。" />
+                            android:text="Mode standby adalah fitur yang dirancang oleh Scene. Saat memasuki mode standby, semua aplikasi dalam daftar beku akan dinonaktifkan untuk mengurangi aktivitas latar belakang. Ketika aplikasi dibekukan, ikon akan tampak abu-abu, dan ketika diklik akan muncul pesan Aplikasi ini dikelola oleh ROOT." />
 
                     </LinearLayout>
 
@@ -221,20 +221,20 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:paddingStart="7dp"
-                            android:text="勿扰模式"
+                            android:text="Mode Jangan Ganggu"
                             android:textColor="?android:textColorPrimary" />
 
                         <RadioButton
                             android:id="@+id/task_zen_mode_on"
                             android:layout_width="110dp"
                             android:layout_height="wrap_content"
-                            android:text="开" />
+                            android:text="Nyala" />
 
                         <RadioButton
                             android:id="@+id/task_zen_mode_off"
                             android:layout_width="110dp"
                             android:layout_height="wrap_content"
-                            android:text="关" />
+                            android:text="Mati" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -254,7 +254,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="@dimen/activity_horizontal_margin"
-                            android:text="自定义命令" />
+                            android:text="Perintah zkhusus" />
 
                         <ImageButton
                             android:id="@+id/task_custom_edit"
