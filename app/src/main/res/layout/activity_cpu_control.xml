@@ -48,7 +48,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:text="开机后应用 " />
+                    android:text="Terapkan setelah booting " />
 
                 <TextView
                     android:id="@+id/cpu_apply_onboot_desc"
@@ -57,7 +57,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
                     android:gravity="center"
-                    android:text="开机后应用当前设置，需要允许Scene开机自启动"
+                    android:text="Untuk menerapkan pengaturan saat ini setelah booting, Anda harus mengizinkan Scene untuk memulai secara otomatis setelah booting."
                     android:textSize="13dp" />
             </LinearLayout>
 
@@ -72,7 +72,7 @@
                     <com.omarea.ui.HelpIcon
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:text="Cpuset用于设定不同状态的进程可使用的CPU核心，给后台进程分配较少的CPU核心，可以保证后台过多时前台进程仍然能流畅运行，但也会导致单个核心持续满载，或下载工具后台时下载速度显著变慢。" />
+                        app:text="Cpuset digunakan untuk mengatur inti CPU yang dapat digunakan oleh proses dalam keadaan yang berbeda. Mengalokasikan lebih sedikit inti CPU ke proses latar belakang. Hal ini dapat memastikan bahwa proses latar depan masih dapat berjalan dengan lancar ketika ada terlalu banyak latar belakang. Namun, ini juga akan berjalan lancar. menyebabkan satu inti terus terisi penuh, atau alat pengunduhan berjalan di latar belakang. Kecepatan pengunduhan melambat secara signifikan." />
 
                     <TextView
                         style="@style/textTitle"
@@ -87,7 +87,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="用户的后台应用" />
+                    android:text="Aplikasi backend pengguna" />
 
                 <TextView
                     android:id="@+id/cpuset_bg"
@@ -104,7 +104,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="系统的后台应用" />
+                    android:text="Aplikasi latar belakang sistem" />
 
                 <TextView
                     android:id="@+id/cpuset_system_bg"
@@ -121,7 +121,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="前台运行的应用" />
+                    android:text="Aplikasi berjalan di latar depan" />
 
                 <TextView
                     android:id="@+id/cpuset_foreground"
@@ -138,7 +138,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="显示在上层的应用" />
+                    android:text="Aplikasi ditampilkan di lapisan atas" />
 
                 <TextView
                     android:id="@+id/cpuset_top_app"
@@ -173,7 +173,7 @@
                     <com.omarea.ui.HelpIcon
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:text="一般来说，默认的调度器就是最好的，不需要更换，除非你使用的内核有特殊的优化，或者你有特殊的需求。\n\n最大\最小频率选项，建议配合功耗级别选项(如果你有看到的话)使用" />
+                        app:text="Secara umum, penjadwal default adalah yang terbaik dan tidak perlu diganti kecuali kernel yang Anda gunakan memiliki optimasi khusus atau Anda memiliki kebutuhan khusus. \n\nOpsi frekuensi maksimum\minimum disarankan untuk digunakan bersama dengan opsi tingkat konsumsi daya (jika Anda melihatnya)" />
 
                     <TextView
                         style="@style/textTitle"
@@ -189,7 +189,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="最小频率" />
+                    android:text="Frekuensi Minimum" />
 
                 <TextView
                     android:id="@+id/gpu_min_freq"
@@ -207,7 +207,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="最大频率" />
+                    android:text="Frekuensi Maksimum" />
 
                 <TextView
                     android:id="@+id/gpu_max_freq"
@@ -226,7 +226,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="调度模式" />
+                    android:text="Modus Penjadwalan" />
 
                 <TextView
                     android:id="@+id/gpu_governor"
@@ -251,7 +251,7 @@
                     <com.omarea.ui.HelpIcon
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:text="Adreno GPU的性能有时会受到功耗级别（Power Level）限制。功耗级别0拥有最高性能，功耗级别数值越大性能越低(能达到的频率越低)\n\n一般来说，PowerLevel可选级别数量和可选频率数量是对等，设置频率时注意保持一致即可" />
+                        app:text="Performa GPU Adreno terkadang dibatasi oleh tingkat daya (Power Level). Tingkat konsumsi daya 0 memiliki performa tertinggi. Semakin besar nilai tingkat konsumsi daya, semakin rendah performanya (semakin rendah frekuensi yang dapat dicapai)\n\nSecara umum, jumlah level opsional PowerLevel dan jumlah frekuensi opsional adalah sama Saat mengatur frekuensi Berhati-hatilah agar tetap konsisten" />
 
                     <TextView
                         style="@style/textTitle"
@@ -267,7 +267,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="最小功耗级别" />
+                    android:text="Tingkat Konsumsi Daya Minimum" />
 
                 <TextView
                     android:id="@+id/adreno_gpu_min_pl"
@@ -285,7 +285,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="最大功耗级别" />
+                    android:text="Tingkat Konsumsi Daya Maksimum" />
 
                 <TextView
                     android:id="@+id/adreno_gpu_max_pl"
@@ -304,7 +304,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="默认功耗级别" />
+                    android:text="Tingkat Daya Bawaan" />
 
                 <TextView
                     android:id="@+id/adreno_gpu_default_pl"
@@ -330,13 +330,13 @@
                     <com.omarea.ui.HelpIcon
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:text="Qualcomm在老旧SOC上使用的一些发热控制相关的模块，在骁龙835之后基本已被废弃。一般来说保持默认即可，如果你希望设备达到最佳性能，那么建议不要勾选任何一项！" />
+                        app:text="Beberapa modul terkait kontrol panas yang digunakan oleh Qualcomm pada SOC lama pada dasarnya telah ditinggalkan setelah Snapdragon 835. Secara umum, biarkan saja defaultnya. Jika Anda ingin perangkat mencapai kinerja optimal, disarankan untuk tidak mencentang item apa pun!" />
 
                     <TextView
                         style="@style/textTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Qualcomm温控" />
+                        android:text="Kontrol suhu Qualcomm" />
 
                 </LinearLayout>
 
@@ -345,7 +345,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="核心控制" />
+                    android:text="Kendali Inti" />
 
                 <CheckBox
                     android:id="@+id/thermal_core_control"
@@ -357,7 +357,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="VDD 限制" />
+                    android:text="Batas VDD" />
 
                 <CheckBox
                     android:id="@+id/thermal_vdd"
@@ -370,7 +370,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="温度限制" />
+                    android:text="Batas Suhu" />
 
                 <CheckBox
                     android:id="@+id/thermal_paramters"
@@ -392,7 +392,7 @@
                     <com.omarea.ui.HelpIcon
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:text="Up/Down Threshold决定使用高性能核心的积极程度（数值越低越积极）" />
+                        app:text="Ambang Batas Atas/Bawah menentukan agresivitas penggunaan inti berkinerja tinggi (semakin rendah nilainya, semakin agresif)" />
 
                     <TextView
                         style="@style/textTitle"
@@ -408,7 +408,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="热插拔" />
+                    android:text="Pertukaran Panas" />
 
                 <CheckBox
                     android:id="@+id/exynos_cpuhotplug"
@@ -477,7 +477,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill"
                     android:gravity="center_vertical"
-                    android:text="优先大核" />
+                    android:text="Prioritaskan Inti Besar" />
 
                 <CheckBox
                     android:id="@+id/exynos_hmp_booster"
@@ -500,7 +500,7 @@
                     <com.omarea.ui.HelpIcon
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:text="诸如温控和场景智能加速都可能会不断调节参数，导致你关闭的核心被重新开启，这是正常现象\n\n除非你禁用掉所有企图自启调节相关的功能(Scene并不能帮你找出并关闭这些东西)" />
+                        app:text="Parameter seperti kontrol suhu dan akselerasi cerdas pemandangan mungkin terus disesuaikan, menyebabkan inti yang Anda matikan dibuka kembali. Ini adalah fenomena normal\n\nKecuali Anda menonaktifkan semua fungsi yang terkait dengan penyesuaian yang dimulai sendiri (Adegan tidak dapat membantu Anda menemukannya ) keluar dan tutup hal-hal ini)" />
 
                     <TextView
                         style="@style/textTitle"
