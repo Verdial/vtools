@@ -30,7 +30,7 @@
                 android:paddingStart="@dimen/activity_horizontal_margin"
                 android:paddingTop="8dp"
                 android:paddingBottom="@dimen/activity_vertical_margin"
-                android:text="确定[冻结/隐藏]选中的${apps.size}个应用？"
+                android:text="Apakah Anda yakin untuk [membekukan/menyembunyikan] ${apps.size} aplikasi yang dipilih?"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -70,13 +70,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="限制使用" />
+                            android:text="Penggunaan Terbatas" />
                         <TextView
                             style="@style/textSecondary"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="使应用图标变为灰色，并阻止用户打开，系统要求 Android P+" />
+                            android:text="Membuat ikon aplikasi menjadi abu-abu dan mencegah pengguna membukanya, persyaratan sistem Android P+" />
                     </LinearLayout>
 
                     <Switch
@@ -114,13 +114,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="冻结(停用)应用" />
+                            android:text="Bekukan (nonaktifkan) suatu aplikasi" />
                         <TextView
                             style="@style/textSecondary"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="使应用从桌面消失且不可启动，但仍会在系统的应用管理列表显示" />
+                            android:text="Membuat aplikasi menghilang dari desktop dan tidak dapat diluncurkan, namun tetap ditampilkan di daftar manajemen aplikasi sistem" />
                     </LinearLayout>
                     <Switch
                         android:id="@+id/disable_freeze"
@@ -156,13 +156,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="完全隐藏" />
+                            android:text="Sepenuhnya Tersembunyi" />
                         <TextView
                             style="@style/textSecondary"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="让应用从桌面和系统的应用管理列表消失，但你仍然可以在Scene找回它~" />
+                            android:text="Biarkan aplikasi menghilang dari daftar manajemen aplikasi desktop dan sistem, namun Anda masih dapat mengambilnya kembali di Scene~" />
                     </LinearLayout>
                     <Switch
                         android:id="@+id/disable_hide"
@@ -185,12 +185,12 @@
                 android:id="@+id/btn_cancel"
                 style="@style/dialogCancelBtn"
                 android:layout_marginEnd="8dp"
-                android:text="取消">
+                android:text="Membatalkan">
             </Button>
             <Button
                 android:id="@+id/btn_confirm"
                 style="@style/dialogConfirmBtn"
-                android:text="确定">
+                android:text="Konfirmasi">
             </Button>
         </LinearLayout>
 
