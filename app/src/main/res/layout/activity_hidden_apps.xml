@@ -12,7 +12,7 @@
         android:id="@+id/tip"
         android:padding="10dp"
         android:textColor="?android:colorAccent"
-        android:text="如果应用无法恢复，可尝试在Recovery(TWRP)模式备份并删除 /data/system/users/0/package-restrictions.xml"
+        android:text="Jika aplikasi tidak dapat dipulihkan, coba buat cadangan dan hapus aplikasi dalam mode Pemulihan (TWRP). /data/system/users/0/package-restrictions.xml"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <com.omarea.common.ui.OverScrollListView
