@@ -22,14 +22,14 @@
             style="@style/textTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="请检查你的设备" />
+            android:text="Silakan periksa perangkat Anda" />
         <TextView
             android:id="@+id/confirm_message"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
             android:paddingTop="8dp"
             android:paddingBottom="16dp"
-            android:text="现在，请检查 [界面是显示]、[触摸操作]、[屏幕指纹解锁]、[密码解锁] 等功能是否正常。\n\n如果倒计时结束你还没有点击“确认修改”，Scene将会自动恢复默认分辨率和DPI！"
+            android:text="Sekarang, silakan periksa apakah [Interface is Display], [Touch Operation], [Screen Fingerprint Unlock], [Password Unlock] dan fungsi lainnya normal. \n\nJika hitungan mundur berakhir dan Anda belum mengklik "Konfirmasi Perubahan", Scene akan secara otomatis mengembalikan resolusi dan DPI default!"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
