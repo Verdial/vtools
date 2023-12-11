@@ -140,7 +140,7 @@
                                 <com.omarea.ui.HelpIcon
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    app:text="Saat membekukan aplikasi, ikon desktop tidak disembunyikan, tetapi hanya berwarna abu-abu (efek yang sama seperti [Jeda] dalam manajemen aplikasi), untuk menghindari kerusakan tata letak desktop saat membekukan aplikasi.Fitur ini memerlukan Android P+">
+                                    app:text="Saat membekukan aplikasi, ikon desktop tidak disembunyikan, tetapi hanya berwarna abu-abu (efek yang sama seperti [Jeda] dalam manajemen aplikasi), untuk menghindari kerusakan tata letak desktop saat membekukan aplikasi.Fitur ini memerlukan Android P+" />
 
                                 <Switch
                                     android:id="@+id/freeze_suspend_mode"
