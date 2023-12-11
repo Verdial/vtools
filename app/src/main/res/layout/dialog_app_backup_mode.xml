@@ -24,13 +24,13 @@
                 style="@style/textTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="备份确认" />
+                android:text="Konfirmasi Cadangan" />
             <TextView
                 android:id="@+id/confirm_message"
                 android:paddingStart="@dimen/activity_horizontal_margin"
                 android:paddingTop="8dp"
                 android:paddingBottom="@dimen/activity_vertical_margin"
-                android:text="确定备份选中的${apps.size}个应用？"
+                android:text="Apakah Anda yakin ingin mencadangkan ${apps.size} aplikasi yang dipilih?"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -76,7 +76,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="同时备份应用数据\n注意：此功能并不非常可靠，你可能会遇到无法还原或还原后数据损坏等问题！！！" />
+                            android:text="Pada saat yang sama, buat cadangan data aplikasi\nCatatan: Fungsi ini sangat tidak dapat diandalkan, dan Anda mungkin mengalami masalah seperti tidak dapat memulihkan atau data rusak setelah pemulihan! ! !" />
                     </LinearLayout>
 
                     <Switch
@@ -101,12 +101,12 @@
                 android:id="@+id/btn_cancel"
                 style="@style/dialogCancelBtn"
                 android:layout_marginEnd="8dp"
-                android:text="取消">
+                android:text="Membatalkan">
             </Button>
             <Button
                 android:id="@+id/btn_confirm"
                 style="@style/dialogConfirmBtn"
-                android:text="确定">
+                android:text="Konfirmasi">
             </Button>
         </LinearLayout>
 
