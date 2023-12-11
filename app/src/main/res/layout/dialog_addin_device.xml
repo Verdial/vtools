@@ -144,7 +144,7 @@
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginEnd="6dp"
-            android:text="选择模板"
+            android:text="Pilih templat"
             android:textSize="11dp" />
 
         <Button
@@ -153,7 +153,7 @@
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginEnd="6dp"
-            android:text="还原"
+            android:text="Kembalikan"
             android:textSize="11dp" />
     </LinearLayout>
 
@@ -162,7 +162,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="警告：修改机型可能导致无法开机，或部分功能不能使用！"
+        android:text="Peringatan: Memodifikasi model dapat menyebabkan mesin gagal melakukan booting, atau beberapa fungsi menjadi tidak tersedia!"
         android:textColor="@android:color/holo_red_dark" />
 
 </LinearLayout>
