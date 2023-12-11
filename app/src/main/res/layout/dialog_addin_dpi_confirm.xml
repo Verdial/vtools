@@ -29,7 +29,7 @@
             android:paddingEnd="16dp"
             android:paddingTop="8dp"
             android:paddingBottom="16dp"
-            android:text="Sekarang, silakan periksa apakah [Interface is Display], [Touch Operation], [Screen Fingerprint Unlock], [Password Unlock] dan fungsi lainnya normal. \n\nJika hitungan mundur berakhir dan Anda belum mengklik "Konfirmasi Perubahan", Scene akan secara otomatis mengembalikan resolusi dan DPI default!"
+            android:text="Sekarang, silakan periksa apakah [Interface is Display], [Touch Operation], [Screen Fingerprint Unlock], [Password Unlock] dan fungsi lainnya normal. \n\nJika hitungan mundur berakhir dan Anda belum mengklik Konfirmasi Perubahan, Scene akan secara otomatis mengembalikan resolusi dan DPI default!"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
