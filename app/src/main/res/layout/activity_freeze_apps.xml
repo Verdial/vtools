@@ -371,7 +371,7 @@
                                 <com.omarea.ui.HelpIcon
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    app:text="Tampilkan entri pintasan antarmuka manajemen "Aplikasi Beku" di desktop" />
+                                    app:text="Tampilkan entri pintasan antarmuka manajemen Aplikasi Beku di desktop" />
 
                                 <Switch
                                     android:id="@+id/freeze_quick_entry"
